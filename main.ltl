@@ -1,0 +1,15 @@
+// ltl-scheme-lite/main.ltl
+//
+// R5RS-subset Scheme interpreter with tail-call elimination.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-scheme-lite v0.1.0")
+    io::println("R5RS-subset Scheme interpreter with tail-call elimination.")
+    0
+}
